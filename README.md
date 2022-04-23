@@ -1,4 +1,6 @@
-# FILE-CRACK FREE TOOL
+# FILE-CRACK
+
+# FREE TOOL
 
 pkg update
 
@@ -26,4 +28,4 @@ python3 kashif.py
 
 
 
-THIS TOOL IS FREE NOT PAID SO ENJOY 
+# THIS TOOL IS FREE NOT PAID SO ENJOY 
