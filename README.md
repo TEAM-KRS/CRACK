@@ -20,7 +20,7 @@ termux-setup-storage
 
 rm -rf FILE-CRACK
 
-git clone https://github.com/TECH-KRS/FILE-CRACK
+git clone https://github.com/TECH-KRS/FILE-CRACK.git
 
 cd FILE-CRACK
 
