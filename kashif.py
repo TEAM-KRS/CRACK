@@ -1,3 +1,3 @@
-print("\n\n\n\n\033[1;31mPLEASE W8 THIS TOOL WAS UPDATING")
+print("\n\n\\t033[1;31mPLEASE W8 THIS TOOL WAS UPDATING")
 print (" ")
-print(" THANKS FOR USING MY TOOL ")
+print(" \tTHANKS FOR USING MY TOOL ")
