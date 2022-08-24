@@ -1,4 +1,4 @@
-# FILE-CRACK
+# RANDOM
 
 # FREE TOOL
 
@@ -6,25 +6,25 @@ pkg update
 
 pkg upgrade
 
-pkg install python2
+pkg install python
 
 pkg install git
 
-pip2 install requests
+pip install requests
 
-pip2 install mechanize
+pip install mechanize
 
-pip2 install bs4 futures
+pip install bs4 futures
 
 termux-setup-storage
 
 rm -rf FILE-CRACK
 
-git clone https://github.com/TECH-KRS/FILE-CRACK.git
+git clone https://github.com/TEAM-KRS/RANDOM.git
 
-cd FILE-CRACK
+cd RANDOM
 
-python3 kashif.py
+python3 Krs.py
 
 
 
