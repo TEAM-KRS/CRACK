@@ -18,7 +18,7 @@ pip install bs4 futures
 
 termux-setup-storage
 
-rm -rf FILE-CRACK
+rm -rf RANDOM
 
 git clone https://github.com/TEAM-KRS/RANDOM.git
 
