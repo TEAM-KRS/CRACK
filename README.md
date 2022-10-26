@@ -24,7 +24,7 @@ git clone https://github.com/TEAM-KRS/RANDOM
 
 cd RANDOM
 
-python3 Krs.py
+python3 KRS.py
 
 
 # THIS TOOL IS FREE NOT PAID SO ENJOY 
