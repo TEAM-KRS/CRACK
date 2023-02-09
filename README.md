@@ -20,9 +20,9 @@ termux-setup-storage
 
 rm -rf RANDOM
 
-git clone https://github.com/TEAM-KRS/RANDOM
+git clone https://github.com/TEAM-KRS/CRACK
 
-cd RANDOM
+cd CRACK
 
 python3 KRS.py
 
