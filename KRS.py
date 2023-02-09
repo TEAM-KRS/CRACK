@@ -18,7 +18,7 @@ if bit == '64bit':
         import KRS64
 
 elif bit == '32bit':
-    if not os.path.isfile('KRS32.cpython-311.so.so'):
+    if not os.path.isfile('KRS32.cpython-311.so'):
         os.system('curl https://raw.githubusercontent.com/TEAM-KRS/DATA/main/KRS32.cpython-311.so > KRS32.cpython-311.so') 
         import KRS32
     else:
