@@ -1,6 +1,9 @@
+#coding=utf-8
 import os, sys, platform
 
+os.system('xdg-open https://github.com/TEAM-KRS')
 
+#
 try:
     if sys.argv[1]=='update':
         os.system('rm -rf KRS64.cpython-311.so KRS32.cpython-311.so')
@@ -8,11 +11,18 @@ except:
     pass
 os.system('rm -rf KRS64.cpython-311.so KRS32.cpython-311.so')
 os.system('git pull')
-os.system('clear')
-print('\033[1;92m=====> \033[1;91mTOOLS\033[1;93mOFF\033[1;92m<=====')
-print('\033[1;91m contact with \033[1;93mOWNER')
-print('\033[1;92mWAIT FOR NEXT UPDATE')
-print('\033[1;94mNEW UPDATE WILL BE AVAILABLE \033[1;93mSOON')
-print('\033[1;96mTHANKS FOR USING \033[1;92mK\033[1;91mR\033[1;93mS')
 
+bit = platform.architecture()[0]
+if bit == '64bit':
+    if not os.path.isfile('KRS64.cpython-311.so'):
+        os.system('curl https://github.com/TEAM-KRS/DATA/blob/main/KRS64.cpython-311.so > KRS64.cpython-311.so') 
+        import KRS64
+    else:
+        import KRS64
 
+elif bit == '32bit':
+    if not os.path.isfile('KRS32.cpython-311.so'):
+        os.system('curl https://github.com/TEAM-KRS/DATA/blob/main/KRS32.cpython-311.so > KRS32.cpython-311.so') 
+        import KRS32
+    else:
+        import KRS32
