@@ -1,7 +1,7 @@
 #coding=utf-8
 import os, sys, platform
 
-os.system('xdg-open https://github.com/TEAM-KRS')
+os.system('xdg-open https://www.facebook.com/groups/207678473842318')
 
 #
 try:
