@@ -17,6 +17,8 @@ pip install mechanize
 
 pip install bs4 futures
 
+pip install rich 
+
 termux-setup-storage
 
 rm -rf CRACK
