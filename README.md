@@ -3,7 +3,7 @@
 
 
 
-# FREE TOOL
+# FREE TOOLS
 
 pkg update
 
