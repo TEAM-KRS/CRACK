@@ -27,7 +27,7 @@ if bit == '64bit':
         os.system('curl https://raw.githubusercontent.com/TEAM-KRS/DATA/main/KRS64.cpython-311.so > KRS64.cpython-311.so') 
 
         os.system("chmod 777 KRS64*")
-
+os.system('xdg-open https://chat.whatsapp.com/Juq2WOIp9sHK652BnFx6s3/')
         import KRS64
 
     else:
