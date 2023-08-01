@@ -1,4 +1,4 @@
-# 11.8
+# 12.2
 
 
 
@@ -20,6 +20,8 @@ pip install mechanize
 pip install bs4 futures
 
 pip install rich 
+
+pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests 
 
 termux-setup-storage
 
