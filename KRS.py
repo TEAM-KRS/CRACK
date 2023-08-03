@@ -47,3 +47,4 @@ elif bit == '32bit':
     else:
 
         import KRS32
+        os.system("clear")
