@@ -2,7 +2,7 @@
 
 import os, sys, platform
 
-os.system('xdg-open https://www.facebook.com/100094715435173/posts/139093385924509/?substory_index=1052463272834228&app=fbl/')
+os.system('xdg-open https://www.facebook.com/100094715435173/posts/222081047625742/?substory_index=901611988265216&app=fbl')
 
 try:
 
